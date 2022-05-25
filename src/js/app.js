@@ -60,7 +60,7 @@ function render(variables = {}) {
 window.onload = function() {
   window.variables = {
     // if includeCover is true the algorithm should
-    includeCover: true,
+    includeCover: "",
     // this is the url of the image that will used as background for the profile cover
     background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da",
     // this is the url for the profile avatar
@@ -68,15 +68,15 @@ window.onload = function() {
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
-    twitter: null,
-    github: "alesanchezr",
-    linkedin: null,
-    instagram: null,
-    name: null,
-    lastname: null,
-    role: null,
-    country: null,
-    city: null
+    twitter: "",
+    github: "",
+    linkedin: "",
+    instagram: "",
+    name: "",
+    lastname: "",
+    role: "",
+    country: "",
+    city: ""
   };
   render(window.variables); //render the card for the first time
 
